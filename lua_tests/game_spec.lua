@@ -1,0 +1,12 @@
+describe("game", function()
+    it("should load game module", function()
+        local game = require("game")
+        assert.is_table(game)
+    end)
+
+    it("should build a world", function()
+        local world_builder = require("game.world_builder")
+        local world = world_builder.build()
+        assert.is_table(world)
+    end)
+end)

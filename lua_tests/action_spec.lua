@@ -1,0 +1,6 @@
+describe("action", function()
+    it("should load the action module", function()
+        local action = require("action")
+        assert.is_table(action)
+    end)
+end)

@@ -1,0 +1,6 @@
+describe("util", function()
+    it("should load the util module", function()
+        local util = require("util")
+        assert.is_table(util)
+    end)
+end)

@@ -1,0 +1,6 @@
+describe("story", function()
+    it("should load the story module", function()
+        local story = require("story")
+        assert.is_table(story)
+    end)
+end)

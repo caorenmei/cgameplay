@@ -1,0 +1,6 @@
+describe("io", function()
+    it("should load the io module", function()
+        local io_module = require("io")
+        assert.is_table(io_module)
+    end)
+end)

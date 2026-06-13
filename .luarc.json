@@ -24,8 +24,19 @@
     "workspace.useGitIgnore": true,
 
     "diagnostics.enable": true,
-    "diagnostics.globals": [],
-    "diagnostics.disable": [],
+    "diagnostics.globals": [
+        "describe",
+        "it",
+        "before_each",
+        "after_each",
+        "setup",
+        "teardown",
+        "pending",
+        "assert"
+    ],
+    "diagnostics.disable": [
+        "undefined-field"
+    ],
     "diagnostics.severity": {
         "redefined-local": "Warning",
         "unused-local": "Warning",

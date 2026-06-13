@@ -1,0 +1,6 @@
+describe("persist", function()
+    it("should load the persist module", function()
+        local persist = require("persist")
+        assert.is_table(persist)
+    end)
+end)
