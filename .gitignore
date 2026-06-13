@@ -26,3 +26,5 @@ Thumbs.db
 # Claude Code 本地配置（如未纳入版本管理）
 .claude/local*
 .claude/settings.local.json
+/luarocks
+/lua
